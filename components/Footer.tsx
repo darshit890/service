@@ -51,25 +51,6 @@ const Footer = () => {
             </div>
           </div>
           
-          <div className="w-full lg:w-1/3">
-            <h3 className="font-semibold mb-3">Subscribe To Our Weekly Newsletter To Get The Latest Design Updates</h3>
-            <form onSubmit={handleSubmit} className="flex">
-              <input
-                type="email"
-                placeholder="Type Your Email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="flex-grow px-4 py-2 rounded-l-full bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500"
-                required
-              />
-              <button
-                type="submit"
-                className="px-6 py-2 bg-purple-600 text-white rounded-r-full hover:bg-purple-700 transition duration-300"
-              >
-                Subscribe Now
-              </button>
-            </form>
-          </div>
         </div>
         
         <div className="border-t border-gray-200 pt-8">
