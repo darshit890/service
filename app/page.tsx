@@ -1,4 +1,5 @@
 import AboutPage from "@/components/AboutUs";
+import CollaborationBanner from "@/components/CollaborationBanner";
 import ContactSection from "@/components/ContactUs";
 import HeroSection from "@/components/Hero";
 import HowItWorks from "@/components/HowItWork";
@@ -13,6 +14,7 @@ export default function Home() {
     <AboutPage />
     <ContactSection />
     <HowItWorks />
+    <CollaborationBanner />
     </>
   );
 }
