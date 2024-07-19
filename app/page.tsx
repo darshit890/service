@@ -1,4 +1,5 @@
 import AboutPage from "@/components/AboutUs";
+import ContactSection from "@/components/ContactUs";
 import HeroSection from "@/components/Hero";
 import ServicesSection from "@/components/ServiceSection";
 import Image from "next/image";
@@ -9,6 +10,7 @@ export default function Home() {
     <HeroSection />
     <ServicesSection />
     <AboutPage />
+    <ContactSection />
     </>
   );
 }
