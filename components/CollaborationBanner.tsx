@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const CollaborationBanner: React.FC = () => {
   return (
-    <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] overflow-hidden rounded-lg">
+    <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] overflow-hidden rounded-3xl max-w-7xl mx-auto my-20">
       <Image
         src="/heros.avif" // Replace with your actual image path
         alt="Team Collaboration"

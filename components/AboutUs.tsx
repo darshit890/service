@@ -3,12 +3,10 @@ import React from 'react';
 
 const AboutPage: React.FC = () => {
   return (
-    <div className="bg-gray-900 text-white min-h-screen">
-      <div className="container mx-auto px-4 py-12">
-        <h1 className="text-5xl md:text-7xl font-bold mb-8">BEYOND<br />TATTOO</h1>
-        
+    <div className="bg-gray-900 text-white ">
+      <div className="container mx-auto max-w-7xl px-4 py-12">
         <div className="flex flex-col md:flex-row gap-8">
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 ">
             <h2 className="text-4xl font-bold mb-6">ABOUT</h2>
             <p className="mb-4">
               My name is Sophie Vermeulen and moving the needle is second nature to me. With a

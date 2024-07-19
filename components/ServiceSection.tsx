@@ -44,8 +44,8 @@ const services: Service[] = [
 
 const ServicesSection = () => {
   return (
-    <section className="pt-16 px-4 sm:px-6 lg:px-8 bg-gray-100 pb-24">
-      <div className="max-w-7xl mx-auto">
+    <section className="pt-16  bg-gray-100 pb-24">
+      <div className="max-w-7xl px-4 mx-auto">
       <div className="z-10 flex min-h-[7rem] items-center justify-center">
       <div
         className={cn(
