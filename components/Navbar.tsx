@@ -7,8 +7,8 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white shadow-sm">
-      <div className="max-w-7xl mx-auto px-4">
+    <header className="bg-white shadow-sm py-4">
+      <div className="max-w-7xl mx-auto px-4 border rounded-3xl">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">

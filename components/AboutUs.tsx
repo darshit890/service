@@ -3,8 +3,8 @@ import React from 'react';
 
 const AboutPage: React.FC = () => {
   return (
-    <div className="bg-gray-900 text-white ">
-      <div className="container mx-auto max-w-7xl px-4 py-12">
+    <div className="text-white ">
+      <div className="max-w-7xl mx-auto border p-10 rounded-3xl bg-gray-900">
         <div className="flex flex-col md:flex-row gap-8">
           <div className="md:w-1/2 ">
             <h2 className="text-4xl font-bold mb-6">ABOUT</h2>
@@ -40,7 +40,7 @@ const AboutPage: React.FC = () => {
               width={600}
               height={400}
               layout="responsive"
-              objectFit="cover"
+              style={{ objectFit: 'cover' }}
               className="rounded-lg"
             />
             <div className="absolute bottom-0 left-0 bg-lime-400 text-black py-2 px-4 rotate-[-2deg]">

@@ -2,8 +2,8 @@ import React from 'react';
 
 const HowItWorks: React.FC = () => {
   return (
-    <div className="bg-gray-900 text-gray-100 py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+    <div className=" text-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto border p-10 rounded-3xl bg-gray-900">
         <div className="text-center">
           <span className="inline-block bg-lime-400 text-gray-900 px-3 py-1 rounded-full text-sm font-semibold mb-4">
             How it works
