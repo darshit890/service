@@ -7,8 +7,8 @@ const CollaborationBanner: React.FC = () => {
       <Image
         src="/heros.avif" // Replace with your actual image path
         alt="Team Collaboration"
-        fill
-        style={{ objectFit: 'cover' }}
+        layout="fill"
+        objectFit="cover"
         className="brightness-75"
       />
       <div className="absolute inset-0 bg-purple-500 bg-opacity-50"></div>
