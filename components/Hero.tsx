@@ -7,8 +7,8 @@ const HeroSection = () => {
       <Image
         src="/heros.avif"
         alt="Team in office"
-        fill
-        style={{ objectFit: 'cover' }}
+        layout="fill"
+        objectFit="cover"
         className="brightness-50"
       />
       <div className="absolute inset-0 bg-black bg-opacity-50" />
